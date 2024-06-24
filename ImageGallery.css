@@ -1,0 +1,21 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .image-item {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.1);
+  }
+  
